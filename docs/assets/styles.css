@@ -1,0 +1,45 @@
+/* Base */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: Georgia, "Times New Roman", serif;
+  background: #fafafa;
+  color: #222;
+  line-height: 1.7;
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+}
+
+/* Header */
+header {
+  border-bottom: 2px solid #333;
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+}
+header h1 { font-size: 2rem; }
+header p  { color: #555; font-style: italic; }
+
+/* Paper list */
+.paper-list { list-style: none; padding: 0; }
+.paper-list li { margin: 0.75rem 0; }
+.paper-list a {
+  font-size: 1.1rem;
+  color: #0645ad;
+  text-decoration: none;
+}
+.paper-list a:hover { text-decoration: underline; }
+
+/* Paper page */
+.paper-meta { margin: 1rem 0 2rem; }
+.paper-meta p { margin: 0.3rem 0; color: #444; }
+
+/* Footer */
+footer {
+  margin-top: 3rem;
+  border-top: 1px solid #ccc;
+  padding-top: 1rem;
+  font-size: 0.85rem;
+  color: #666;
+}
+footer a { color: #0645ad; }
